@@ -1,0 +1,40 @@
+<resources>
+    <string name="app_name">SpaceXHelper</string>
+    <string name="simple_error_title">Error</string>
+    <string name="menu_missions">Launches</string>
+    <string name="menu_info">Company</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="no_internet_error">No internet connection</string>
+    <string name="action_filter">Filters</string>
+    <string name="launch_year_title">Launch year</string>
+    <string name="rocket_name_tile">Rocket name</string>
+    <string name="dialog_filter_apply">Apply filters</string>
+    <string name="leads_title">Top Brass</string>
+    <string name="ceo_title">CEO</string>
+    <string name="cto_title">CTO</string>
+    <string name="coo_title">COO</string>
+    <string name="cto_prop_title">CTO of Propulsions</string>
+    <string name="stats_title">Statistics</string>
+    <string name="company_value_title">Company valuation</string>
+    <string name="test_sites_title">Test sites</string>
+    <string name="launch_sites_title">Launch sites</string>
+    <string name="employees_title">Employees</string>
+    <string name="vehicles_title">Vehicles</string>
+    <string name="mission_name">Mission</string>
+    <string name="name_title">Name</string>
+    <string name="rocket_title">Rocket</string>
+    <string name="flight_number_title">Flight number</string>
+    <string name="date_title">Date</string>
+    <string name="type_title">Type</string>
+    <string name="reused_title">Reused</string>
+    <string name="recovery_attempt_title">Recovery attempted</string>
+    <string name="recovery_success_title">Recovery succeeded</string>
+    <string name="content_desc_spacex_logo">Company Logo</string>
+    <string name="content_desc_mission_patch">Mission Patch</string>
+    <string-array name="recovery_info_array">
+        <item>No information</item>
+        <item>Yes</item>
+        <item>No</item>
+    </string-array>
+</resources>

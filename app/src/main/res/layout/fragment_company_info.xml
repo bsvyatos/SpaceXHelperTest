@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="@dimen/activity_horizontal_margin"
+            xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:padding="@dimen/activity_horizontal_margin">
+
+        <ImageView
+                android:id="@+id/imgSpaceXLogo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:contentDescription="@string/content_desc_spacex_logo"
+                android:src="@drawable/img_spacex_logo_crop"
+                android:background="@android:color/transparent"
+                android:paddingBottom="@dimen/activity_horizontal_margin"
+                android:layout_alignParentTop="true"/>
+
+        <TextView
+                android:id="@+id/founderTxt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/imgSpaceXLogo"
+                android:layout_centerHorizontal="true"/>
+
+        <TextView
+                android:id="@+id/companyHQ"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/founderTxt"
+                android:layout_centerHorizontal="true"/>
+
+        <TextView
+                android:id="@+id/summary"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/companyHQ"
+                android:paddingTop="@dimen/padding_big"
+                android:paddingBottom="@dimen/padding_big"/>
+
+        <TextView
+                android:id="@+id/leadsTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:textSize="@dimen/sub_headline_size_text"
+                android:textStyle="bold"
+                android:text="@string/leads_title"
+                android:layout_below="@+id/summary"/>
+
+        <TextView
+                android:id="@+id/ceoTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/ceo_title"
+                android:layout_below="@+id/leadsTitle"
+                android:layout_marginTop="@dimen/padding_small"
+                android:layout_alignParentStart="true"/>
+
+        <TextView
+                android:id="@+id/ceoTxt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/leadsTitle"
+                android:layout_marginTop="@dimen/padding_small"
+                android:layout_alignParentEnd="true"/>
+
+        <TextView
+                android:id="@+id/ctoTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/cto_title"
+                android:layout_below="@+id/ceoTitle"
+                android:layout_marginTop="@dimen/padding_small"
+                android:layout_alignParentStart="true"/>
+
+        <TextView
+                android:id="@+id/ctoTxt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/ceoTxt"
+                android:layout_marginTop="@dimen/padding_small"
+                android:layout_alignParentEnd="true"/>
+
+        <TextView
+                android:id="@+id/cooTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/coo_title"
+                android:layout_below="@+id/ctoTitle"
+                android:layout_marginTop="@dimen/padding_small"
+                android:layout_alignParentStart="true"/>
+
+        <TextView
+                android:id="@+id/cooTxt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/ctoTxt"
+                android:layout_marginTop="@dimen/padding_small"
+                android:layout_alignParentEnd="true"/>
+
+        <TextView
+                android:id="@+id/ctoPropTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/cto_prop_title"
+                android:layout_below="@+id/cooTitle"
+                android:layout_marginTop="@dimen/padding_small"
+                android:layout_alignParentStart="true"/>
+
+        <TextView
+                android:id="@+id/ctoPropTxt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/cooTxt"
+                android:layout_marginTop="@dimen/padding_small"
+                android:layout_alignParentEnd="true"/>
+
+        <TextView
+                android:id="@+id/statisticsTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:textSize="@dimen/sub_headline_size_text"
+                android:textStyle="bold"
+                android:layout_below="@+id/ctoPropTitle"
+                android:layout_marginTop="@dimen/padding_medium"
+                android:text="@string/stats_title"/>
+
+        <TextView
+                android:id="@+id/valueTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/company_value_title"
+                android:layout_below="@+id/statisticsTitle"
+                android:layout_marginTop="@dimen/padding_small"
+                android:layout_alignParentStart="true"/>
+
+        <TextView
+                android:id="@+id/valueTxt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/statisticsTitle"
+                android:layout_marginTop="@dimen/padding_small"
+                android:layout_alignParentEnd="true"/>
+
+        <TextView
+                android:id="@+id/testSitesTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/test_sites_title"
+                android:layout_below="@+id/valueTitle"
+                android:layout_marginTop="@dimen/padding_small"
+                android:layout_alignParentStart="true"/>
+
+        <TextView
+                android:id="@+id/testSitesTxt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/valueTxt"
+                android:layout_marginTop="@dimen/padding_small"
+                android:layout_alignParentEnd="true"/>
+
+        <TextView
+                android:id="@+id/launchSitesTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/launch_sites_title"
+                android:layout_below="@+id/testSitesTitle"
+                android:layout_marginTop="@dimen/padding_small"
+                android:layout_alignParentStart="true"/>
+
+        <TextView
+                android:id="@+id/launchSitesTxt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/testSitesTxt"
+                android:layout_marginTop="@dimen/padding_small"
+                android:layout_alignParentEnd="true"/>
+
+        <TextView
+                android:id="@+id/employeesTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/employees_title"
+                android:layout_below="@+id/launchSitesTitle"
+                android:layout_marginTop="@dimen/padding_small"
+                android:layout_alignParentStart="true"/>
+
+        <TextView
+                android:id="@+id/employeesTxt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/launchSitesTxt"
+                android:layout_marginTop="@dimen/padding_small"
+                android:layout_alignParentEnd="true"/>
+
+        <TextView
+                android:id="@+id/vehiclesTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/vehicles_title"
+                android:layout_below="@+id/employeesTitle"
+                android:layout_marginTop="@dimen/padding_small"
+                android:layout_alignParentStart="true"/>
+
+        <TextView
+                android:id="@+id/vehiclesTxt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/employeesTxt"
+                android:layout_marginTop="@dimen/padding_small"
+                android:layout_alignParentEnd="true"/>
+
+        <ProgressBar
+                android:id="@+id/progressBar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:visibility="gone"
+                android:layout_centerInParent="true"/>
+
+    </RelativeLayout>
+</ScrollView>

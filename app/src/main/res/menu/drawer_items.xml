@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group>
+        <item
+            android:id="@+id/navLaunchesList"
+            android:checked="true"
+            android:icon="@drawable/ic_rocket"
+            android:title="@string/menu_missions" />
+        <item
+            android:id="@+id/navCompanyDetails"
+            android:checked="true"
+            android:icon="@drawable/ic_info_outline"
+            android:title="@string/menu_info" />
+    </group>
+</menu>

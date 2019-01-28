@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="image_patch_big">128dp</dimen>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="icon_image_margin">4dp</dimen>
+    <dimen name="padding_small">5dp</dimen>
+    <dimen name="padding_medium">10dp</dimen>
+    <dimen name="padding_big">15dp</dimen>
+    <dimen name="line_one_text_size">16sp</dimen>
+    <dimen name="line_two_text_size">14sp</dimen>
+    <dimen name="display_size_text">56sp</dimen>
+    <dimen name="headline_size_text">24sp</dimen>
+    <dimen name="small_image_size">40dp</dimen>
+    <dimen name="sub_headline_size_text">15sp</dimen>
+
+</resources>

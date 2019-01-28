@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:padding="@dimen/activity_horizontal_margin">
+
+    <ImageView
+            android:id="@+id/missionPatch"
+            android:layout_width="@dimen/image_patch_big"
+            android:layout_height="@dimen/image_patch_big"
+            android:layout_centerHorizontal="true"
+            android:contentDescription="@string/content_desc_mission_patch"
+            android:layout_alignParentTop="true"/>
+
+    <TextView
+            android:id="@+id/missionTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:text="@string/mission_name"
+            android:textSize="@dimen/sub_headline_size_text"
+            android:textStyle="bold"
+            android:layout_marginTop="@dimen/padding_big"
+            android:layout_below="@id/missionPatch"/>
+
+    <TextView
+            android:id="@+id/missionNameTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/content_desc_mission_patch"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="@dimen/padding_small"
+            android:layout_below="@id/missionTitle"/>
+
+    <TextView
+            android:id="@+id/missionNameTxt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="@dimen/padding_small"
+            android:layout_below="@id/missionTitle"/>
+
+    <TextView
+            android:id="@+id/flightNumberTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/flight_number_title"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="@dimen/padding_small"
+            android:layout_below="@id/missionNameTitle"/>
+
+    <TextView
+            android:id="@+id/flightNumberTxt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="@dimen/padding_small"
+            android:layout_below="@id/missionNameTxt"/>
+
+    <TextView
+            android:id="@+id/missionDateTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/date_title"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="@dimen/padding_small"
+            android:layout_below="@id/flightNumberTitle"/>
+
+    <TextView
+            android:id="@+id/missionDateTxt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="@dimen/padding_small"
+            android:layout_below="@id/flightNumberTxt"/>
+
+    <TextView
+            android:id="@+id/rocketTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_below="@id/missionDateTitle"
+            android:text="@string/rocket_title"
+            android:textSize="@dimen/sub_headline_size_text"
+            android:layout_marginTop="@dimen/padding_medium"
+            android:textStyle="bold"/>
+
+    <TextView
+            android:id="@+id/rocketNameTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/name_title"
+            android:layout_marginTop="@dimen/padding_small"
+            android:layout_alignParentStart="true"
+            android:layout_below="@id/rocketTitle"/>
+
+    <TextView
+            android:id="@+id/rocketNameTxt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="@dimen/padding_small"
+            android:layout_below="@id/rocketTitle"/>
+
+    <TextView
+            android:id="@+id/rocketTypeTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/type_title"
+            android:layout_marginTop="@dimen/padding_small"
+            android:layout_alignParentStart="true"
+            android:layout_below="@id/rocketNameTitle"/>
+
+    <TextView
+            android:id="@+id/rocketTypeTxt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="@dimen/padding_small"
+            android:layout_below="@id/rocketNameTxt"/>
+
+    <TextView
+            android:id="@+id/rocketRecoveryAttemptTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/recovery_attempt_title"
+            android:layout_marginTop="@dimen/padding_small"
+            android:layout_alignParentStart="true"
+            android:layout_below="@id/rocketTypeTitle"/>
+
+    <TextView
+            android:id="@+id/rocketRecoveryAttemptTxt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="@dimen/padding_small"
+            android:layout_below="@id/rocketTypeTxt"/>
+
+    <TextView
+            android:id="@+id/rocketRecoverySuccessTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/recovery_success_title"
+            android:layout_marginTop="@dimen/padding_small"
+            android:layout_alignParentStart="true"
+            android:layout_below="@id/rocketRecoveryAttemptTitle"/>
+
+    <TextView
+            android:id="@+id/rocketRecoverySuccessTxt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="@dimen/padding_small"
+            android:layout_below="@id/rocketRecoveryAttemptTxt"/>
+
+    <TextView
+            android:id="@+id/rocketReusedTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/reused_title"
+            android:layout_marginTop="@dimen/padding_small"
+            android:layout_alignParentStart="true"
+            android:layout_below="@id/rocketRecoverySuccessTitle"/>
+
+    <TextView
+            android:id="@+id/rocketReusedTxt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="@dimen/padding_small"
+            android:layout_below="@id/rocketRecoverySuccessTxt"/>
+
+</RelativeLayout>

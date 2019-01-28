@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                                             xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+                                             android:layout_height="match_parent"
+                                             android:padding="@dimen/padding_medium">
+    <TextView
+            android:id="@+id/filterLaunchYearText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/launch_year_title"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="@dimen/padding_medium"/>
+
+    <EditText
+            android:id="@+id/filterLaunchYearEdit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:layout_toEndOf="@+id/filterLaunchYearText"
+            android:layout_alignBaseline="@+id/filterLaunchYearText"/>
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_below="@+id/filterLaunchYearText"
+            android:layout_marginTop="@dimen/padding_medium"
+            android:gravity="center">
+        <Button
+                android:id="@+id/dialogApplyBtn"
+                android:text="@string/dialog_filter_apply"
+                style="@style/Base.Widget.AppCompat.Button.Colored"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        <Button
+                android:id="@+id/dialogCancelBtn"
+                android:text="@android:string/cancel"
+                style="@style/Base.Widget.AppCompat.Button.Colored"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+    </LinearLayout>
+</RelativeLayout>
